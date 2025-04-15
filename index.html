@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FALAH JAYA</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #1a1a1a; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .produk { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .produk-item { border: 1px solid #ccc; padding: 15px; border-radius: 10px; text-align: center; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; margin-bottom: 5px; }
+    input, textarea { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+    button { padding: 10px 20px; background: #1a1a1a; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    a.whatsapp { display: inline-block; margin-top: 10px; color: green; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FALAH JAYA</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#produk">Produk</a>
+      <a href="#pemesanan">Pemesanan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="beranda">
+    <h2>Selamat Datang di FALAH JAYA</h2>
+    <p>Spesialis Kapuk, Kipas, dan Ballpres berkualitas dengan harga terbaik.</p>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>FALAH JAYA adalah usaha yang bergerak di bidang penjualan kapuk, kipas, dan ballpres. Kami berkomitmen menyediakan produk berkualitas untuk memenuhi kebutuhan pelanggan kami.</p>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Kami</h2>
+    <div class="produk">
+      <div class="produk-item">
+        <h3>Kapuk</h3>
+        <p>Kapuk halus, cocok untuk bantal & kasur.</p>
+      </div>
+      <div class="produk-item">
+        <h3>Kipas</h3>
+        <p>Kipas lipat tradisional & modern.</p>
+      </div>
+      <div class="produk-item">
+        <h3>Ballpres</h3>
+        <p>Ballpres isi kapuk siap kirim dalam jumlah besar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pemesanan">
+    <h2>Pemesanan</h2>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+      </div>
+      <div class="form-group">
+        <label for="produk">Produk yang dipesan</label>
+        <input type="text" id="produk" name="produk">
+      </div>
+      <div class="form-group">
+        <label for="pesan">Catatan</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+      </div>
+      <button type="submit">Kirim Pesanan</button>
+    </form>
+    <a class="whatsapp" href="https://wa.me/62xxxxxxxxxxx" target="_blank">Chat via WhatsApp</a>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: [Isi Alamat]</p>
+    <p>WhatsApp: 62xxxxxxxxxxx</p>
+    <p>Email: [email@example.com]</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FALAH JAYA. All rights reserved.</p>
+  </footer>
+</body>
+</html>
